@@ -19,4 +19,4 @@ for n in range(1, 1000000):
         r2 = result
         result = n
 print("num with longest collatz : {0}".format(result))
-print("{0}".format(r2))
+print("num with second longest collatz : {0}".format(r2))
