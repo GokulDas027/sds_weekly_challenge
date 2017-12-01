@@ -1,3 +1,9 @@
+'''Objective: The collatz sequence of a number n is obtained by dividing n by 2
+   if n is even or multiplying n by 3 and adding 1 to the product if n is odd,
+   until n reaches 1. (n → n/2 if n is even, n → 3n + 1 if n is odd).
+   Find n < 1000000 with the longest collatz sequence. '''
+
+
 def collatz(num):
     i = 0
     while (num != 1) and (num not in db):
